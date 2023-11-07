@@ -3,57 +3,53 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Max & Min Height</title>
+    <title>Profil Mahasiswa</title>
     <style>
-        .container {
-            max-width: 500px;
-            /* Lebar maksimum container */
-            margin: 0 auto;
-            /* Untuk menengahkan container */
-            padding: 20px;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
         }
 
-        .box {
+        .profile-container {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
             padding: 20px;
-            margin-bottom: 10px;
-            color: white;
             text-align: center;
         }
 
-        .box1 {
-            background-color: #3498db;
-            min-height: 100px;
-            /* Tinggi minimum elemen 1 */
+        .profile-picture {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 20px;
         }
 
-        .box2 {
-            background-color: #e74c3c;
-            max-height: 250px;
-            /* Tinggi maksimum elemen 2 */
+        .profile-info {
+            font-size: 18px;
+            margin-bottom: 10px;
         }
     </style>
 </head>
 
-
 <body>
-    <div class="container">
-        <div class="box box1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laboriosam, quaerat?</div>
-        <div class="box box2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, expedita? Vero, tenetur.
-            Aut dignissimos ducimus optio temporibus officia cupiditate! Dignissimos fugiat, voluptatibus adipisci vero
-            nisi nihil sint? Similique atque esse provident sint cumque aut quam, odit doloremque maiores aspernatur
-            repudiandae, architecto quae, ipsam a libero tempore quis corporis fuga. Asperiores, vel et repellendus ea
-            placeat itaque esse, sapiente nam doloremque aliquam perspiciatis vitae voluptate? Dicta delectus corporis
-            harum impedit quas laboriosam enim, similique quia hic pariatur non autem libero aliquid iure tempora fugit,
-            voluptatibus quasi error nobis velit. Molestias animi maiores, nemo quaerat ducimus eius, in quod alias enim
-            iste fugit non aliquid hic provident deserunt amet ex ratione! Ea sunt repellat quo dolorum praesentium,
-            omnis laudantium, totam ad quasi impedit quia? Doloribus animi deleniti voluptate omnis dolorum, sit
-            veritatis dolores aut sapiente consequuntur nulla odio cum quos sed veniam, odit vitae. Odit optio non
-            blanditiis! Obcaecati fugit distinctio aliquam corporis tenetur inventore, deleniti sint accusamus quibusdam
-            sed tempore accusantium recusandae modi nostrum. Libero, placeat? Excepturi quis consequatur, debitis
-            aliquid tempore labore. Id, facere dolorem, laborum alias rerum deleniti doloribus aliquid magnam corporis
-            rem, dicta eius ipsam? Ex quis laudantium ea id magni iusto, placeat velit ipsum, dolorem aspernatur porro!
+    <div class="profile-container">
+        <img class="profile-picture"
+            src="https://play-lh.googleusercontent.com/RslBy1o2NEBYUdRjQtUqLbN-ZM2hpks1mHPMiHMrpAuLqxeBPcFSAjo65nQHbTA53YYn=w240-h480-rw"
+            alt="Profil Gambar">
+        <h1>Nama: Saparuddin</h1>
+        <div class="profile-info">
+            <p>NIM: 60900121046</p>
+            <p>Kelas: B</p>
+            <p>Mata Kuliah: Kakas</p>
         </div>
     </div>
 </body>
